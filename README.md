@@ -74,6 +74,7 @@ if __name__ == "__main__":
 
 
 Alright that's it!
+<br>
 Also, you can run the executables made for the scripts from the `app` directory
 There are 2 executables
 1. TextToSpeech-1 (Its the executable for the first voice)
