@@ -16,8 +16,8 @@ This example will show you how you can make your PC say,whatever you want!
 <br>
 But but it wont happen until you install the required Python libraries for that!
 <br>
+
 Paste the following commands in your terminal before running the program -
-<br>
 
 
 ```
