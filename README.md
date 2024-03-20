@@ -10,7 +10,7 @@ This example needs python to work, So if you don't have it download from here
 <a href="https://python.org/download">
 https://python.org/download
 </a>
-
+<br>
 <br>
 This example will show you how you can make your PC say,whatever you want!
 <br>
@@ -19,7 +19,6 @@ Paste the following commands in your terminal before running the program -
 
 ```
 pip install pyttsx3 pyaudio
-
 ```
 
 or 
