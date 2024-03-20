@@ -4,7 +4,8 @@ Fortunately its possible now :)
 |-----|
 # About
 
-This example needs python to work, So if you don't have it download from here
+This program needs python to work,
+So if you don't have it download from here -
 <br>
 
 <a href="https://python.org/download">
@@ -14,7 +15,7 @@ https://python.org/download
 <br>
 This example will show you how you can make your PC say,whatever you want!
 <br>
-But but it wont happen until you install the required Python libraries for that!
+But-but it wont happen until you install the required Python libraries for that!
 <br>
 
 Paste the following commands in your terminal before running the program -
@@ -31,6 +32,7 @@ pip install requirements.txt
 ```
 
 # Basic breakdown
+
 Let me give you some brief breakdown details about the program!
 <br>
 So, basically first of all lets import some libraries into the script
@@ -49,17 +51,18 @@ voices = engine.getProperty("voices")
 engine.setProperty("voice",voices[0].id) # For example if you want another voices, Set it to voices[1].id 
 ```
 
-As we have setup the voices, now lets create some basic functions
+As we have setup the voice, now lets create some basic functions
+
 ```
 # This function would allow our pc to speak
 def speak(input):
     engine.say(input)
     engine.runAndWait()
 ```
-And then
+And then -
 
 ```
-#Function for user input
+# Function for user input
 def inputCommand():
     textInput = input("What do you want me to speak?:\n")
     text = textInput.lower()
