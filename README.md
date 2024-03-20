@@ -19,6 +19,7 @@ But but it wont happen until you install the required Python libraries for that!
 Paste the following commands in your terminal before running the program -
 <br>
 
+
 ```
 pip install pyttsx3 pyaudio
 ```
