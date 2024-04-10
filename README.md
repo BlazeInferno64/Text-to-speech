@@ -28,7 +28,7 @@ pip install pyttsx3 pyaudio
 or 
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 # Basic breakdown
