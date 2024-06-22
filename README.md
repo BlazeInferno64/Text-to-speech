@@ -37,13 +37,13 @@ Let me give you some brief breakdown details about the program!
 <br>
 So, basically first of all lets import some libraries into the script
 
-```
+```python
 import pyttsx3
 ```
 
 Then we gotta setup the voice otherwise our PC wont be able to speak!
 
-```
+```python
 engine = pyttsx3.init()
 voices = engine.getProperty("voices") 
 # If you want to see all the available voices on your device
@@ -53,7 +53,7 @@ engine.setProperty("voice",voices[0].id) # For example if you want another voice
 
 As we have setup the voice, now lets create some basic functions
 
-```
+```python
 # This function would allow our pc to speak
 def speak(input):
     engine.say(input)
@@ -61,7 +61,7 @@ def speak(input):
 ```
 And then -
 
-```
+```python
 # Function for user input
 def inputCommand():
     textInput = input("What do you want me to speak?:\n")
@@ -71,7 +71,7 @@ def inputCommand():
 
 Lastly lets finish this with -
 
-```
+```python
 # Main function setup
 if __name__ == "__main__":
     while True:
